@@ -1,35 +1,125 @@
 .greetingForm {
+    margin-left: 54px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
 }
 
 .error {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #CC0000;
+    margin-top: 10px;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    outline:none;
 }
 
 .input:focus {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    outline:none;
 }
 
 .errorInput {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #CC0000;
+    outline:none;
+}
+
+.errorInput:focus {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #CC0000;
+    outline:none;
 }
 
 .button {
+    margin-left: 12px;
+    border: 0;
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .button:focus {
+    width: 78px;
+    height: 36px;
+    background: #014b96;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .button:active {
+    width: 78px;
+    height: 36px;
+    background: #014b96;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .button:disabled {
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    opacity: 0.5;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .greeting {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
 }
