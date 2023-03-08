@@ -20,6 +20,13 @@
 }
 
 .input {
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
     width: 372px;
     height: 36px;
     border-radius: 5px;
@@ -28,6 +35,13 @@
 }
 
 .input:focus {
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
     width: 372px;
     height: 36px;
     border-radius: 5px;
@@ -36,6 +50,13 @@
 }
 
 .errorInput {
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
     width: 372px;
     height: 36px;
     border-radius: 5px;
@@ -44,6 +65,13 @@
 }
 
 .errorInput:focus {
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
     width: 372px;
     height: 36px;
     border-radius: 5px;
