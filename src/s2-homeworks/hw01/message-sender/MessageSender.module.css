@@ -4,6 +4,7 @@
     align-items: center;
     margin: 0 54px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .textarea {
@@ -21,7 +22,7 @@
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    margin-bottom: 20px;
+
 }
 
 .textarea::placeholder {
@@ -39,8 +40,8 @@
     height: 40px;
     width: 120px;
     background: #0066CC;
+    border: 0;
     border-radius: 20px;
-    border-color: #0066CCFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -50,8 +51,8 @@
 }
 
 .button:hover {
-
+    background: #0059b4;
 }
 .button:active {
-
+    background: #01468f;
 }
