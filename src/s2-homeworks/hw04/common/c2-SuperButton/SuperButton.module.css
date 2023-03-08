@@ -1,10 +1,10 @@
 .button {
     width: 132px;
     height: 30px;
-    background: #0066CC;
     border-radius: 3px;
     border: 0;
     font-family: 'Montserrat';
+    background: #0066CC;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -25,7 +25,7 @@
 }
 
 .default {
-    background-color: blue;
+
 }
 
 .red {
@@ -33,24 +33,30 @@
 }
 
 .default:hover {
-
+    background: #0f559a;
 }
 
 .red:hover {
+    background-color: #a2112e;
 }
 
 .secondary:hover {
+    background: #E5F0FA;
 }
 
 
 .default:active {
+    background: #0a437c;
 }
 
 .secondary:active {
+    background: #bfc6d0;
 }
 
 .red:active {
+    background-color: #750c20;
 }
 
 .button:disabled {
+
 }
