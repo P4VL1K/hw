@@ -4,7 +4,6 @@
     border-radius: 3px;
     border: 0;
     font-family: 'Montserrat';
-    background: #0066CC;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -13,7 +12,7 @@
 }
 
 .disabled {
-    background: #004D99!important;
+    background: #004D99;
     opacity: 0.5;
     color: #002E5C;
 }
@@ -25,7 +24,7 @@
 }
 
 .default {
-
+    background: #0066CC;
 }
 
 .red {
