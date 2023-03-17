@@ -1,14 +1,32 @@
 .radio {
+    width: 20px;
+    height: 20px;
+    color: black;
 }
 
 .radio::before {
+    color: black;
 }
 
 
 .radio:checked::before {
+    color: black;
+    background-color: black;
 }
 
 .label {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.label span {
+    margin-left: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .options {
